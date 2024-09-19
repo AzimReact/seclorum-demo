@@ -1,0 +1,9 @@
+.layout-container {
+    padding: 0 100px;
+    /* Задаём отступ слева */
+    max-width: 1240px;
+    /* Максимальная ширина контейнера */
+    margin: 0 auto;
+    /* Центрируем контейнер */
+    box-sizing: border-box;
+}

@@ -1,0 +1,21 @@
+.title,
+.description {
+    color: white;
+    width: 50%;
+}
+
+.homeFirstSection {
+    position: relative;
+    height: calc(100vh - 80px);
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('https://datkakurulush.kg/wp-content/uploads/2021/07/photo1613212315.jpeg') center / cover;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.btn {
+    align-self: flex-start;
+}

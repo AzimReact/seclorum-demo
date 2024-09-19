@@ -1,0 +1,17 @@
+.project-detail-background {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 80px);
+    padding: 20px 95px;
+}
+
+.project-detail-title {
+    font-size: 48px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.project-description {
+    font-size: 18px;
+    color: #f0f0f0;
+}
