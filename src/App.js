@@ -6,6 +6,8 @@ import Footer from './components/Footer/Footer';
 import ProjectDetail from './pages/ProjectsDetail/ProjectDetail';
 import { ProjectsProvider } from './context/ProjectContext';
 import './App.css';
+import Admin from './pages/Admin/Admin';
+import AdminDashboard from './pages/AdminDashboard/AdminDashboard';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
           <Route path="/" element={<Home />}/>
           <Route path="/projects" element={<Projects />}/>
           <Route path="/projects/:id" element={<ProjectDetail />} />
+          <Route path="/admin" element={<Admin />} />
+          <Route path="/admin/dashboard" element={<AdminDashboard />} />
         </Routes>
       </ProjectsProvider>
       </div>

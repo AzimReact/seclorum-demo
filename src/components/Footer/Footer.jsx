@@ -1,11 +1,14 @@
 import './footer.css';
 import logo from '../../images/logo.png';
+import { NavLink } from 'react-router-dom';
 
 function Footer() {
   return (
     <div className='footer'>
-      <div className="footer-left">
-        <img src={logo} alt="Seclorum Logo" className="footer-logo" />
+      <div to="/" className="footer-left">
+        <NavLink to="/">
+          <img src={logo} alt="Seclorum Logo" className="footer-logo" />
+        </NavLink>
         <p>&copy; 2024 Seclorum. Все права защищены.</p>
       </div>
       <div className="footer-right">

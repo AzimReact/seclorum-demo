@@ -5,9 +5,9 @@ import './header.css';
 function Header() {
   return (
     <div className="header">
-        <div>
+        <NavLink to="/">
           <img className="logo" src={logo} alt="logo" />
-        </div>
+        </NavLink>
         <nav>
           <NavLink to="/">
             Главная
